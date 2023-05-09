@@ -1,4 +1,4 @@
-﻿<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
+<Project ToolsVersion="15.0" Sdk="Microsoft.NET.Sdk">
   <Import Project="$(RepoEngPath)/mgmt/AzSdk.test.reference.props" />
   <PropertyGroup>
     <PackageId>Blueprint.Tests</PackageId>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="System.Threading" Version="4.3.0" />
     <ProjectReference Include="..\src\Microsoft.Azure.Management.Blueprint.csproj" />
   </ItemGroup>
